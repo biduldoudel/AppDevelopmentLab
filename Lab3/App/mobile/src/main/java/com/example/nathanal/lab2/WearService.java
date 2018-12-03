@@ -1,4 +1,4 @@
-package ch.epfl.esl.sportstracker;
+package com.example.nathanal.lab2;
 
 import android.content.Intent;
 import android.graphics.Bitmap;
@@ -31,6 +31,8 @@ import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+
+import static com.google.android.gms.common.Scopes.PROFILE;
 
 public class WearService extends WearableListenerService {
 
@@ -68,6 +70,7 @@ public class WearService extends WearableListenerService {
                 putDataMapRequest.getDataMap().putAsset(BuildConfig.W_some_other_key, (Asset) intent.getParcelableExtra(IMAGE));
                 sendPutDataMapRequest(putDataMapRequest);
                 break;
+
             default:
                 Log.w(TAG, "Unknown action");
                 break;
@@ -324,6 +327,6 @@ public class WearService extends WearableListenerService {
 
     // Constants
     public enum ACTION_SEND {
-        STARTACTIVITY, MESSAGE, EXAMPLE_DATAMAP, EXAMPLE_ASSET
+        STARTACTIVITY, MESSAGE, EXAMPLE_DATAMAP, EXAMPLE_ASSET, PROFILE_SEND;
     }
 }
