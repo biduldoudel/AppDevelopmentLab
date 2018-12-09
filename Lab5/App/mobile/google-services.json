@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "644331493634",
+    "firebase_url": "https://sporttrackerapp-df125.firebaseio.com",
+    "project_id": "sporttrackerapp-df125",
+    "storage_bucket": "sporttrackerapp-df125.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:644331493634:android:da50598af6c73304",
+        "android_client_info": {
+          "package_name": "com.example.nathanal.lab2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "644331493634-nvqp6m662g7enca1g48e8g3d6u9nvsoa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.nathanal.lab2",
+            "certificate_hash": "6e87620cd8b13c3a3e49361f0dde54c5268f8387"
+          }
+        },
+        {
+          "client_id": "644331493634-ogid72sujna74j1pt63sb09780trbtp6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALR5Vt974hSgVIqxJ1tWsVUrJ-4g3yZi0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "644331493634-ogid72sujna74j1pt63sb09780trbtp6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

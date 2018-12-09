@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Lab2</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="edit_data">editData</string>
+    <string name="registration_success">Succesful Registration</string>
+    <string name="registration_failed">Registration Failed</string>
+    <string name="not_registered_yet">Not registered</string>
+    <string name="running">Running</string>
+    <string name="smartwatch">Smartwatch</string>
+    <string name="hr_belt">Belt</string>
+</resources>
